@@ -19,6 +19,7 @@ a:visited {
 a:hover, a:focus {
     /* color: dodgerblue; */
     opacity:0.7;    /* 1 would be the max and 0 would be completly transparent - so when you apply it to a link it makes the color lighter when you hover over it */
+    background-color: aqua;
 }
 
 a:active {
