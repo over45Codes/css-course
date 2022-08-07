@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    background-color: bisque;
+}
+
+a {
+  color: hsl(205, 76%, 27%);
+}
+
+/*sudo class to add color to visited links*/
+
+a:visited {
+        color: rgb(128, 0, 128);
+}
+
+a:hover, a:focus {
+    /* color: dodgerblue; */
+    opacity:0.7;    /* 1 would be the max and 0 would be completly transparent - so when you apply it to a link it makes the color lighter when you hover over it */
+    background-color: aqua;
+}
+
+a:active {
+    color: red;
+}
+
+h1 {
+   color: blue;
+}
+
+p {
+    color: blueviolet;
+}
