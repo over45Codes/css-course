@@ -8,4 +8,5 @@ Always remember: “code every day”, “Simplicity is the soul of efficiency.�
 🔥BUILD MORE … LEARN LESS by Dorian Develops
 
 ### Author
-Grace Castaneda - Full Stack Developer 
+
+- Grace Castaneda - Full Stack Developer - [Linkedin](https://www.linkedin.com/in/castanedagrace/)
