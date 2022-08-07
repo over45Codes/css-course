@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* use @import on your css for google fonts and you can remove the link in the HTML file instead */
+/* Typography is the way that text is arranged and presented.*/
+
+body {
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* input {
+    font: inherit
+} */
+
+
+p {
+    line-height: 1.5;
+    /* letter-spacing: 0.1em; */
+    /* font-style: italic; */
+    }
