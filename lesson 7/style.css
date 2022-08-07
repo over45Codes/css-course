@@ -4,6 +4,7 @@ body {
     padding: 10%;
     font-size: 2rem;
     font-family: 'Roboto', sans-serif;
+    background-color: bisque;
 }
 
 a {
@@ -26,3 +27,6 @@ a:active {
     color: red;
 }
 
+h1 {
+   color: blue;
+}
