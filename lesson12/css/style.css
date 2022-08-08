@@ -6,5 +6,11 @@ body {
 }
 
 .columns {
-    column-count: 4;
+   /*  column-count: 4;
+    column-width: 250px; */
+    columns: 4 250px;
+    column-rule: 3px solid #333;
+}
+.columns p{
+  margin-top: 0;
 }
