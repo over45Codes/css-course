@@ -4,3 +4,10 @@ body {
   font-size: 2rem;
   font-family: "Roboto", sans-serif;
 }
+
+
+p {
+/* block level elements set to 100% width by default and stop on top of each other but not always*/
+    background-color: lightgray;
+
+}
