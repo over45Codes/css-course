@@ -5,9 +5,23 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-
-p {
-/* block level elements set to 100% width by default and stop on top of each other but not always*/
-    background-color: lightgray;
-
+/* main {
+    background-color: aqua;
+    width: 50%;
 }
+ */
+p {
+/* block level elements set to 100% width by default and stop on top of each other but not always and always create a new line. Inline elements only take up the width of the content unless we add padding. inline-block is a hybrid. */
+    background-color: lightgray;
+   /*  margin: 100px 50px; */
+}
+
+.opposite {
+    display: inline-block;
+    background-color: black;
+    color: whitesmoke;
+    margin-top: 100px; /* we cannot apply this to inline elements*/
+    height: 200px;
+    padding: 4rem;
+}
+
