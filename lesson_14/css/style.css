@@ -17,13 +17,38 @@ body {
   min-height: 400px;
   margin-inline: auto;
   border: 1px solid #000;
+  display: flex;
+  gap: 1rem;
+  justify-content: 
+  center;
+  align-items: center;
+  flex-flow: row nowrap;/* shorthand for below */ 
+  /* flex-direction: row;
+  flex-wrap: wrap; */ /* this will resolve overflow */ 
+  align-content: space-evenly;
 } 
 
 .box {
-  min-width: 100px;
-  min-height: 100px;
+  /* min-width: 100px; */
+  height: 100px;
   background-color: #000;
   color: #fff;
   font-size: 2rem;
   padding: 0.5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  flex: 1 1 150px;
+  /* flex-shrink: 1;
+  flex-basis: 250px; */
+}
+
+.box:nth-child(2) {
+    /* flex-shrink: 2; */
+    flex: 2 2 150px;
+    order: 0;
+
+
 }
