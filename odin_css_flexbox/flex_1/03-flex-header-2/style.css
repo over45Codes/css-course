@@ -9,6 +9,9 @@ body {
 }
 
 .header {
+  padding: 8px;
+  display: flex;
+  align-items: center;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -30,7 +33,8 @@ body {
 }
 
 button {
-  border: none;
+
+ border: none;
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
@@ -39,10 +43,22 @@ button {
 
 a {
   /* this removes the line under our links */
+  display: flex;
   text-decoration: none;
   color: rebeccapurple;
 }
 
 ul {
+  display: flex;
+ margin: 0;
+ padding: 0;
+ align-items: center;
+ gap: 16px;
   list-style-type: none;
+}
+
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
